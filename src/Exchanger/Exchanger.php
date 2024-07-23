@@ -1,11 +1,11 @@
 <?php
 
-namespace NeoScrypts\Exchanger;
+namespace PrivateGit\Exchanger;
 
 use Akaunting\Money\Currency;
 use Akaunting\Money\Money;
 use Illuminate\Support\Arr;
-use NeoScrypts\Exchanger\Drivers\AbstractDriver;
+use PrivateGit\Exchanger\Drivers\AbstractDriver;
 use OutOfBoundsException;
 use UnexpectedValueException;
 

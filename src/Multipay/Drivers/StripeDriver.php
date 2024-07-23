@@ -1,11 +1,11 @@
 <?php
 
-namespace NeoScrypts\Multipay\Drivers;
+namespace PrivateGit\Multipay\Drivers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use NeoScrypts\Multipay\Order;
-use NeoScrypts\Multipay\OrderItem;
+use PrivateGit\Multipay\Order;
+use PrivateGit\Multipay\OrderItem;
 use Stripe\Exception\ApiErrorException;
 use Stripe\StripeClient;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace NeoScrypts\Landing\Http\Controllers;
+namespace PrivateGit\Landing\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace NeoScrypts\Multipay;
+namespace PrivateGit\Multipay;
 
 
 use Akaunting\Money\Currency;

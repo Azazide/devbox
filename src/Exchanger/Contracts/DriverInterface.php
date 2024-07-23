@@ -1,6 +1,6 @@
 <?php
 
-namespace NeoScrypts\Exchanger\Contracts;
+namespace PrivateGit\Exchanger\Contracts;
 
 
 interface DriverInterface

@@ -1,14 +1,14 @@
 <?php
 
-namespace NeoScrypts\Multipay\Drivers;
+namespace PrivateGit\Multipay\Drivers;
 
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Request;
-use NeoScrypts\Multipay\Order;
-use NeoScrypts\Multipay\OrderItem;
+use PrivateGit\Multipay\Order;
+use PrivateGit\Multipay\OrderItem;
 use OpenPayU_Configuration;
 use OpenPayU_Exception;
 use OpenPayU_Order;

@@ -1,8 +1,8 @@
 <?php
 
-namespace NeoScrypts\Multipay\Contracts;
+namespace PrivateGit\Multipay\Contracts;
 
-use NeoScrypts\Multipay\Order;
+use PrivateGit\Multipay\Order;
 
 interface DriverInterface
 {

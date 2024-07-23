@@ -1,12 +1,12 @@
 <?php
 
-namespace NeoScrypts\Landing;
+namespace PrivateGit\Landing;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use NeoScrypts\Landing\Http\Controllers\IndexController;
+use PrivateGit\Landing\Http\Controllers\IndexController;
 
 class LandingServiceProvider extends ServiceProvider
 {

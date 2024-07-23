@@ -1,7 +1,7 @@
 <?php
 
-use NeoScrypts\Exchanger\Drivers\Database;
-use NeoScrypts\Exchanger\Drivers\Filesystem;
+use PrivateGit\Exchanger\Drivers\Database;
+use PrivateGit\Exchanger\Drivers\Filesystem;
 
 return [
     /*

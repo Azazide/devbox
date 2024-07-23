@@ -1,13 +1,13 @@
 <?php
 
-namespace NeoScrypts\Exchanger\Console;
+namespace PrivateGit\Exchanger\Console;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Http;
-use NeoScrypts\Exchanger\Exchanger;
+use PrivateGit\Exchanger\Exchanger;
 
 class Update extends Command
 {

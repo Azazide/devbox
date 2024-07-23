@@ -8,7 +8,7 @@
             "src/Exchanger/helpers.php"
         ],
         "psr-4": {
-            "NeoScrypts\\": "src/"
+            "PrivateGit\\": "src/"
         }
     },
     "authors": [
@@ -34,10 +34,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NeoScrypts\\Multipay\\MultipayServiceProvider",
-                "NeoScrypts\\Landing\\LandingServiceProvider",
-                "NeoScrypts\\Exchanger\\ExchangerServiceProvider"
+                "PrivateGit\\Multipay\\MultipayServiceProvider",
+                "PrivateGit\\Landing\\LandingServiceProvider",
+                "PrivateGit\\Exchanger\\ExchangerServiceProvider"
             ]
         }
-    }
+    },
+   "minimum-stability": "dev",
+   "prefer-stable": true
 }

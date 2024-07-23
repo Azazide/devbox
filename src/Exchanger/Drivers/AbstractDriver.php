@@ -1,9 +1,9 @@
 <?php
 
-namespace NeoScrypts\Exchanger\Drivers;
+namespace PrivateGit\Exchanger\Drivers;
 
 use Illuminate\Support\Arr;
-use NeoScrypts\Exchanger\Contracts\DriverInterface;
+use PrivateGit\Exchanger\Contracts\DriverInterface;
 
 abstract class AbstractDriver implements DriverInterface
 {

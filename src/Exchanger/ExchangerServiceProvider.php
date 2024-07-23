@@ -1,6 +1,6 @@
 <?php
 
-namespace NeoScrypts\Exchanger;
+namespace PrivateGit\Exchanger;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

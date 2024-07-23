@@ -1,12 +1,12 @@
 <?php
 
-namespace NeoScrypts\Multipay\Drivers;
+namespace PrivateGit\Multipay\Drivers;
 
 use Akaunting\Money\Money;
 use Illuminate\Support\Arr;
 use Mollie\Api\Exceptions\ApiException;
 use Mollie\Api\MollieApiClient;
-use NeoScrypts\Multipay\Order;
+use PrivateGit\Multipay\Order;
 
 class MollieDriver extends AbstractDriver
 {

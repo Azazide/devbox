@@ -1,13 +1,13 @@
 <?php
 
-namespace NeoScrypts\Multipay\Drivers;
+namespace PrivateGit\Multipay\Drivers;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Http;
-use NeoScrypts\Multipay\Order;
+use PrivateGit\Multipay\Order;
 
 class PaystackDriver extends AbstractDriver
 {

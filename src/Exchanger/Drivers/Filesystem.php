@@ -1,6 +1,6 @@
 <?php
 
-namespace NeoScrypts\Exchanger\Drivers;
+namespace PrivateGit\Exchanger\Drivers;
 
 use DateTime;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;

@@ -1,11 +1,11 @@
 <?php
 
-namespace NeoScrypts\Multipay\Drivers;
+namespace PrivateGit\Multipay\Drivers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\URL;
-use NeoScrypts\Multipay\Contracts\DriverInterface;
-use NeoScrypts\Multipay\Order;
+use PrivateGit\Multipay\Contracts\DriverInterface;
+use PrivateGit\Multipay\Order;
 
 abstract class AbstractDriver implements DriverInterface
 {

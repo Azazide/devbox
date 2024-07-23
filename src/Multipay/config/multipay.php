@@ -1,10 +1,10 @@
 <?php
 
-use NeoScrypts\Multipay\Drivers\CinetPayDriver;
-use NeoScrypts\Multipay\Drivers\MollieDriver;
-use NeoScrypts\Multipay\Drivers\PaystackDriver;
-use NeoScrypts\Multipay\Drivers\PayUDriver;
-use NeoScrypts\Multipay\Drivers\StripeDriver;
+use PrivateGit\Multipay\Drivers\CinetPayDriver;
+use PrivateGit\Multipay\Drivers\MollieDriver;
+use PrivateGit\Multipay\Drivers\PaystackDriver;
+use PrivateGit\Multipay\Drivers\PayUDriver;
+use PrivateGit\Multipay\Drivers\StripeDriver;
 
 return [
 
