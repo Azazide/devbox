@@ -1,0 +1,43 @@
+{
+    "name": "azazide/devbox",
+    "description": "DevBox Packages",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "src/Multipay/helpers.php",
+            "src/Exchanger/helpers.php"
+        ],
+        "psr-4": {
+            "NeoScrypts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azazide",
+            "email": "valikx22@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/support" : ">=8.0",
+        "illuminate/console" : ">=8.0",
+        "illuminate/cache" : ">=8.0",
+        "illuminate/database" : ">=8.0",
+        "illuminate/http" : ">=8.0",
+        "illuminate/routing" : ">=8.0",
+        "akaunting/laravel-money": "5.x-dev",
+        "stripe/stripe-php": "^7.94",
+        "openpayu/openpayu" : "2.3.*",
+        "mollie/mollie-api-php": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NeoScrypts\\Multipay\\MultipayServiceProvider",
+                "NeoScrypts\\Landing\\LandingServiceProvider",
+                "NeoScrypts\\Exchanger\\ExchangerServiceProvider"
+            ]
+        }
+    }
+}
