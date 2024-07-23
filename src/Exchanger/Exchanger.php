@@ -1,11 +1,11 @@
 <?php
 
-namespace PrivateGit\Exchanger;
+namespace Vendor\Exchanger;
 
 use Akaunting\Money\Currency;
 use Akaunting\Money\Money;
 use Illuminate\Support\Arr;
-use PrivateGit\Exchanger\Drivers\AbstractDriver;
+use Vendor\Exchanger\Drivers\AbstractDriver;
 use OutOfBoundsException;
 use UnexpectedValueException;
 

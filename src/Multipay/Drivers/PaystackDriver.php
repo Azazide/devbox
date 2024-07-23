@@ -1,13 +1,13 @@
 <?php
 
-namespace PrivateGit\Multipay\Drivers;
+namespace Vendor\Multipay\Drivers;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Http;
-use PrivateGit\Multipay\Order;
+use Vendor\Multipay\Order;
 
 class PaystackDriver extends AbstractDriver
 {

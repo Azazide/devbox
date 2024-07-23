@@ -3,7 +3,7 @@
 use Akaunting\Money\Currency;
 use Akaunting\Money\Money;
 use Illuminate\Support\Facades\App;
-use PrivateGit\Exchanger\Exchanger;
+use Vendor\Exchanger\Exchanger;
 
 if (!function_exists('exchanger')) {
     /**

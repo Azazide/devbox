@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Multipay;
+namespace Vendor\Multipay;
 
 use Akaunting\Money\Currency;
 use Akaunting\Money\Money;

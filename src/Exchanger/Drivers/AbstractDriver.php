@@ -1,9 +1,9 @@
 <?php
 
-namespace PrivateGit\Exchanger\Drivers;
+namespace Vendor\Exchanger\Drivers;
 
 use Illuminate\Support\Arr;
-use PrivateGit\Exchanger\Contracts\DriverInterface;
+use Vendor\Exchanger\Contracts\DriverInterface;
 
 abstract class AbstractDriver implements DriverInterface
 {

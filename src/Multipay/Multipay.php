@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Multipay;
+namespace Vendor\Multipay;
 
 use Illuminate\Support\Arr;
 

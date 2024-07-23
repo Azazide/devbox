@@ -1,11 +1,11 @@
 <?php
 
-namespace PrivateGit\Multipay\Drivers;
+namespace Vendor\Multipay\Drivers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use PrivateGit\Multipay\Order;
-use PrivateGit\Multipay\OrderItem;
+use Vendor\Multipay\Order;
+use Vendor\Multipay\OrderItem;
 use Stripe\Exception\ApiErrorException;
 use Stripe\StripeClient;
 

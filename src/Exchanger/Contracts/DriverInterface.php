@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Exchanger\Contracts;
+namespace Vendor\Exchanger\Contracts;
 
 
 interface DriverInterface

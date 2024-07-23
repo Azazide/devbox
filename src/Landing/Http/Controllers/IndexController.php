@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Landing\Http\Controllers;
+namespace Vendor\Landing\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;

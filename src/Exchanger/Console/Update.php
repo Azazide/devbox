@@ -1,13 +1,13 @@
 <?php
 
-namespace PrivateGit\Exchanger\Console;
+namespace Vendor\Exchanger\Console;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Http;
-use PrivateGit\Exchanger\Exchanger;
+use Vendor\Exchanger\Exchanger;
 
 class Update extends Command
 {

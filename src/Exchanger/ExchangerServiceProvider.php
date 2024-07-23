@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Exchanger;
+namespace Vendor\Exchanger;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

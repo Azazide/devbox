@@ -8,7 +8,7 @@
             "src/Exchanger/helpers.php"
         ],
         "psr-4": {
-            "PrivateGit\\": "src/"
+            "Vendor\\": "src/"
         }
     },
     "authors": [
@@ -34,9 +34,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PrivateGit\\Multipay\\MultipayServiceProvider",
-                "PrivateGit\\Landing\\LandingServiceProvider",
-                "PrivateGit\\Exchanger\\ExchangerServiceProvider"
+                "Vendor\\Multipay\\MultipayServiceProvider",
+                "Vendor\\Landing\\LandingServiceProvider",
+                "Vendor\\Exchanger\\ExchangerServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace PrivateGit\Exchanger\Drivers;
+namespace Vendor\Exchanger\Drivers;
 
 use DateTime;
 use Illuminate\Support\Arr;

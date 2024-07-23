@@ -1,10 +1,10 @@
 <?php
 
-use PrivateGit\Multipay\Drivers\CinetPayDriver;
-use PrivateGit\Multipay\Drivers\MollieDriver;
-use PrivateGit\Multipay\Drivers\PaystackDriver;
-use PrivateGit\Multipay\Drivers\PayUDriver;
-use PrivateGit\Multipay\Drivers\StripeDriver;
+use Vendor\Multipay\Drivers\CinetPayDriver;
+use Vendor\Multipay\Drivers\MollieDriver;
+use Vendor\Multipay\Drivers\PaystackDriver;
+use Vendor\Multipay\Drivers\PayUDriver;
+use Vendor\Multipay\Drivers\StripeDriver;
 
 return [
 

@@ -1,7 +1,7 @@
 <?php
 
-use PrivateGit\Exchanger\Drivers\Database;
-use PrivateGit\Exchanger\Drivers\Filesystem;
+use Vendor\Exchanger\Drivers\Database;
+use Vendor\Exchanger\Drivers\Filesystem;
 
 return [
     /*

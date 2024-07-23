@@ -1,8 +1,8 @@
 <?php
 
-namespace PrivateGit\Multipay\Contracts;
+namespace Vendor\Multipay\Contracts;
 
-use PrivateGit\Multipay\Order;
+use Vendor\Multipay\Order;
 
 interface DriverInterface
 {

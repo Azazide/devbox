@@ -1,11 +1,11 @@
 <?php
 
-namespace PrivateGit\Multipay\Drivers;
+namespace Vendor\Multipay\Drivers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\URL;
-use PrivateGit\Multipay\Contracts\DriverInterface;
-use PrivateGit\Multipay\Order;
+use Vendor\Multipay\Contracts\DriverInterface;
+use Vendor\Multipay\Order;
 
 abstract class AbstractDriver implements DriverInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace PrivateGit\Multipay\Drivers;
+namespace Vendor\Multipay\Drivers;
 
 use Akaunting\Money\Money;
 use Illuminate\Support\Arr;
 use Mollie\Api\Exceptions\ApiException;
 use Mollie\Api\MollieApiClient;
-use PrivateGit\Multipay\Order;
+use Vendor\Multipay\Order;
 
 class MollieDriver extends AbstractDriver
 {

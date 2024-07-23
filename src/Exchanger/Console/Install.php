@@ -1,11 +1,11 @@
 <?php
 
-namespace PrivateGit\Exchanger\Console;
+namespace Vendor\Exchanger\Console;
 
 use Akaunting\Money\Currency;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
-use PrivateGit\Exchanger\Contracts\DriverInterface;
+use Vendor\Exchanger\Contracts\DriverInterface;
 use UnexpectedValueException;
 
 class Install extends Command

@@ -1,12 +1,12 @@
 <?php
 
-namespace PrivateGit\Landing;
+namespace Vendor\Landing;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use PrivateGit\Landing\Http\Controllers\IndexController;
+use Vendor\Landing\Http\Controllers\IndexController;
 
 class LandingServiceProvider extends ServiceProvider
 {
